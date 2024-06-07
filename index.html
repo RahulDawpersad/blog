@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>DesignX | Blog</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free Website Template" name="keywords" />
+    <meta content="Free Website Template" name="description" />
+
+    <!-- Favicon -->
+    <link href="public/img/favicon.ico" rel="icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/655b3b7e45.js"
+      crossorigin="anonymous"
+    ></script>
+
+      <!-- Include the reCAPTCHA JavaScript API -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="public/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="sidebar">
+        <div
+          class="sidebar-text d-flex flex-column h-100 justify-content-center text-center"
+          style="background-color: #1F1F1F"
+        >
+          <img
+            class="mx-auto d-block w-75 img-fluid rounded-circle mb-4 p-1 profile-img"
+            style="background-color: #FF7D39;"
+            src="public/img/Rahul_hero2.jpg"
+            alt="Image"
+          />
+          <h1 class="font-weight-bold text-white">Rahul Dawpersad</h1>
+          <p class="mb-4 sidebar-paragraph">Full-Stack Web Developer</p>
+          <div class="d-flex justify-content-center mb-5">
+            <a class="btn mr-2 btn-social" href="https://twitter.com/dawpersad15814"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a class="btn mr-2 btn-social" href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="btn mr-2 btn-social" href="https://www.linkedin.com/in/rahul-dawpersad-5680b7281/recent-activity/all/"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="btn mr-2 btn-social" href="https://github.com/RahulDawpersad"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+          <a
+            href="https://www.webfolio.co.za"
+            class="btn-lg btn-block mt-auto btn-hire"
+            >Hire Me</a
+          >
+        </div>
+        <div
+          class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right"
+        >
+          <i class="fas fa-2x fa-angle-double-right text-primary"></i>
+        </div>
+      </div>
+      <div class="content">
+        <!-- Navbar Start -->
+        <div class="container p-0">
+          <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1F1F1F">
+            <a href="https://www.rahuldawpersad.com" class="navbar-brand d-block d-lg-none">DESIGNX</a>
+            <button
+              type="button"
+              class="navbar-toggler navbar-icon"
+              data-toggle="collapse"
+              data-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-between"
+              id="navbarCollapse"
+            >
+              <div class="navbar-nav m-auto">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="https://webfolio.co.za" class="nav-item nav-link">About</a>
+                <a href="#blog" class="nav-item nav-link">Blog</a
+                >
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container p-0">
+          <div id="blog-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="w-100"
+                  src="public/img/custom_carousel_one.jpg"
+                  alt="Image"
+                />
+                <div
+                  class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+                >
+                  <h2 class="text-white font-weight-bold">
+                    Welcome To My Blog
+                  </h2>
+                  <div class="d-flex">
+                    <!-- <small class="mr-2"><i class="fa fa-calendar-alt"></i> 01-Jan-2045</small> -->
+                    <small class="mr-2"
+                      ><i class="fa fa-globe"></i> Web Development & Software Development</small
+                    >
+                    <!-- <small class="mr-2"><i class="fa fa-comments"></i> 15 Comments</small> -->
+                  </div>
+                  <a href="https://designx-contact.glitch.me/" class="btn btn-lg btn-outline-light mt-4"
+                    >Contact</a
+                  >
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="w-100" src="public/img/carousel-2.jpg" alt="Image" />
+                <div
+                  class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+                >
+                  <h2 class="text-white font-weight-bold">Where Code is Art</h2>
+                  <div class="d-flex">
+                    <!-- <small class="mr-2"><i class="fa fa-calendar-alt"></i> 01-Jan-2045</small> -->
+                    <small class="mr-2"
+                      ><i class="fa-solid fa-code"></i>Code Solutions</small
+                    >
+                    <!-- <small class="mr-2"><i class="fa fa-comments"></i> 15 Comments</small> -->
+                  </div>
+                  <a href="https://designx-contact.glitch.me/" class="btn btn-lg btn-outline-light mt-4"
+                    >Contact</a
+                  >
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="w-100"
+                  src="public/img/custom_carousel_Two.jpg"
+                  alt="Image"
+                />
+                <div
+                  class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+                >
+                  <h2 class="text-white font-weight-bold">
+                    And a Canvas of Creativity
+                  </h2>
+                  <div class="d-flex">
+                    <small class="mr-2"
+                      ><i class="fa-solid fa-paintbrush"></i> Graphic
+                      Design</small
+                    >
+                  </div>
+                  <a href="https://designx-contact.glitch.me/" class="btn btn-lg btn-outline-light mt-4"
+                    >Contact</a
+                  >
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#blog-carousel"
+              data-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#blog-carousel"
+              data-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Blog List Start -->
+        <div class="container bg-white pt-5" id="blog">
+          <div class="row blog-item px-3 pb-5">
+            <div class="col-md-5">
+              <video
+                class="img-fluid video-fluid mb-4 mb-md-0"
+                autoplay
+                loop
+                muted
+              >
+                <source src="public/img/front-end.mp4" />
+              </video>
+            </div>
+            <div class="col-md-7">
+              <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">
+                DESIGN<span style="color: #FF7D39">X</span> : Where Web
+                Development Meets Graphic Design
+              </h3>
+              <div class="d-flex mb-3">
+                <small class="mr-2 text-muted"
+                  ><i class="fa fa-calendar-alt"></i> 13 May 2024</small
+                >
+                <small class="mr-2 text-muted"
+                  ><i class="fa fa-globe"></i> Web, Software Development, Graphic Design </small
+                >
+              </div>
+              <p>
+                Explore the fusion of creativity and functionality in web
+                development and graphic design with DesignX.
+              </p>
+            </div>
+          </div>
+          <div class="row blog-item px-3 pb-5">
+            <div class="col-md-5">
+              <video class="img-fluid mb-4 mb-md-0" autoplay loop muted>
+                <source src="public/img/html-code.mp4" />
+              </video>
+            </div>
+            <div class="col-md-7">
+              <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">
+                My <span style="color: #FF7D39">Ultimate</span> Front-End
+                Development Tech Stack <i class="fa-solid fa-code"></i>
+              </h3>
+              <div class="d-flex mb-3">
+                <small class="mr-2 text-muted"
+                  ><i class="fa fa-calendar-alt"></i> 13 May 2024</small
+                >
+                <small class="mr-2 text-muted"
+                  ><i class="fa fa-code"></i> Front-End Web Development</small
+                >
+              </div>
+              <p>
+                I Build stunning interfaces with HTML, CSS, and JavaScript as my
+                core tools, occasionally incorporating React for dynamic
+                elements ( Not always required ). I make layouts more efficient
+                using Bootstrap and Water.css .
+              </p>
+            </div>
+          </div>
+          <div class="row blog-item px-3 pb-5">
+            <div class="col-md-5">
+              <img
+                class="img-fluid mb-4 mb-md-0"
+                src="public/img/backend-code.gif"
+                alt="Image"
+              />
+            </div>
+            <div class="col-md-7">
+              <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">
+                <span style="color: #FF7D39">My </span> Back-End Development
+                Tech Stack <i class="fa-solid fa-code"></i>
+              </h3>
+              <div class="d-flex mb-3">
+                <small class="mr-2 text-muted"
+                  ><i class="fa fa-calendar-alt"></i> 13 May 2024</small
+                >
+                <small class="mr-2 text-muted"
+                  ><i class="fa fa-code"></i> back-End Web Development</small
+                >
+              </div>
+              <p>
+                For my backend development tech stack, I rely on Node.js and
+                Express.js for server-side operations. MySQL, often with Xampp,
+                serves as my go-to database solution. In cases where I don't use
+                Node.js, I opt for PHP as the server-scripting language.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Blog List End -->
+
+        <!-- Contact Start -->
+        <div class="container py-5 px-4 text-center" id="contact" style="background: #1F1F1F;">
+          <div class="form-container">
+                <div class="separator">
+                    <div class="line"></div>
+                    <h2 class="text-white font-weight-bold">Contact Me</h2>
+                    <div class="line"></div>
+                  </div>
+
+                  <form
+                  id="contactform"
+                  action="https://formspree.io/f/xeqygllk"
+                  method="post"
+                  autocomplete="on"
+                  onsubmit="return submitForm(event)"
+                >
+                  <h4 class="text-white">Contact DesignX today, and get reply with in 24 hours</h4>
+                  <fieldset>
+                    <input
+                      name="fullName"
+                      id="fullName"
+                      type="text"
+                      required
+                      style="color: #f70037;"
+                      placeholder="John Doe"
+                    />
+                  </fieldset>
+                  <fieldset>
+                    <input
+                      type="tel"
+                      required
+                      id="phoneNumber"
+                      name="phoneNumber"
+                      placeholder="+27 99 999 9999"
+                    />
+                  </fieldset>
+                  <fieldset>
+                    <input
+                      placeholder="Email Address"
+                      type="email"
+                      name="email"
+                      id="email"
+                      required
+                      style="color: #f70037;"
+                    />
+                  </fieldset>
+                  <fieldset>
+                    <input
+                      placeholder="Subject"
+                      type="text"
+                      required
+                      id="subject"
+                      name="subject"
+                    />
+                  </fieldset>
+                  <fieldset>
+                    <textarea
+                      placeholder="message here...."
+                      id="message"
+                      name="message"
+                      required
+                    ></textarea>
+                  </fieldset>
+                  <div class="form-group mt-3 recaptcha-container">
+                    <div class="recaptcha-inner">
+                      <div
+                        class="g-recaptcha"
+                        data-sitekey="6LeUIIcpAAAAAPJSiddl-lU9cgRB-vCJWzU_peXD"
+                      ></div>
+                      <span id="recaptchaError" style="color: red"></span>
+                    </div>
+                  </div>
+                  <fieldset>
+                    <button
+                      name="submit"
+                      type="submit"
+                      id="submit"
+                    >
+                      Send now
+                    </button>
+                  </fieldset>
+                </form>
+          </div>
+        </div>
+
+        <div id="successModal" class="modal">
+          <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>Thank you for your message! We'll get back to you within 24 hours.</p>
+          </div>
+        </div>
+
+        <!-- Contact End -->
+
+        <!-- Blog List Start -->
+        <div class="container bg-white pt-5">
+          <div class="row blog-item px-3 pb-5">
+            <div class="col-md-5">
+              <img
+                class="img-fluid mb-4 mb-md-0"
+                src="public/img/csharp.gif"
+                alt="Image"
+              />
+            </div>
+            <div class="col-md-7">
+              <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">
+                The <span style="color: #FF7D39">Object-Oriented Language</span> I Use for Simple Windows Form Development
+              </h3>
+              <div class="d-flex mb-3">
+                <small class="mr-2 text-muted"
+                  ><i class="fa fa-calendar-alt"></i> 13 May 2024</small
+                >
+                <small class="mr-2 text-muted"
+                  ><i class="fa fa-code"></i> Windows Form Development</small
+                >
+              </div>
+              <p>
+                I design user-friendly interfaces with C# and Windows Forms, prioritizing simplicity and functionality.
+              </p>
+            </div>
+          </div>
+          <div class="row blog-item px-3 pb-5">
+            <div class="col-md-5">
+              <img
+                class="img-fluid mb-4 mb-md-0"
+                src="public/img/python-code.gif"
+                alt="Image"
+              />
+            </div>
+            <div class="col-md-7">
+              <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">
+                <span style="color: #FF7D39">Python Mastery</span>: From Basic Programs To Tkinter GUIs
+              </h3>
+              <div class="d-flex mb-3">
+                <small class="mr-2 text-muted"
+                  ><i class="fa fa-calendar-alt"></i>13 May 2024</small
+                >
+                <small class="mr-2 text-muted"
+                  ><i class="fa-brands fa-python"></i> GUIs with Python</small
+                >
+              </div>
+              <p>
+                I Develop Simple Programs and GUIs with Python and Tkinter.
+              </p>
+            </div>
+          </div>
+          <div class="row blog-item px-3 pb-5">
+            <div class="col-md-5">
+              <img
+                class="img-fluid mb-4 mb-md-0"
+                src="public/img/canva-figma.jpeg"
+                alt="Image"
+              />
+            </div>
+            <div class="col-md-7">
+              <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">
+                My Toolkit For <span style="color: #FF7D39">Graphic Design</span>
+              </h3>
+              <div class="d-flex mb-3">
+                <small class="mr-2 text-muted"
+                  ><i class="fa fa-calendar-alt"></i>13 May 2024</small
+                >
+                <small class="mr-2 text-muted"
+                  ><i class="fa-brands fa-figma"></i> Graphic Design</small
+                >
+              </div>
+              <p>
+                I Create Logos, Ads, Posters, and CVs with Canva, Figma, or Crello.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Blog List End -->
+
+        <!-- Footer Start -->
+        <div class="container py-4 text-center" style="background: #1F1F1F;">
+          <p class="m-0 text-white">
+            <a class="text-white font-weight-bold" href="https://www.rahuldawpersad.com" target="_blank">DesignX@2024</a> |
+            Developed by
+            <a class="text-white font-weight-bold" href="https://www.rahuldawpersad.com"
+              target="_blank">Rahul Dawpersad</a
+            >
+          </p>
+        </div>
+        <!-- Footer End -->
+      </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <script>
+        function submitForm(event) {
+      event.preventDefault();
+      
+      const recaptchaResponse = grecaptcha.getResponse();
+      if (!recaptchaResponse) {
+        document.getElementById('recaptchaError').innerText = 'Please complete the reCAPTCHA.';
+        return false;
+      }
+      
+      const form = document.getElementById('contactform');
+      const formData = new FormData(form);
+      formData.append('g-recaptcha-response', recaptchaResponse);
+
+      fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          form.reset();
+          grecaptcha.reset();
+          showModal();
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              alert(data["errors"].map(error => error["message"]).join(", "));
+            } else {
+              alert('Oops! There was a problem submitting your form');
+            }
+          });
+        }
+      }).catch(error => {
+        alert('Oops! There was a problem submitting your form');
+      });
+
+      return false;
+    }
+
+    function showModal() {
+      const modal = document.getElementById('successModal');
+      modal.style.display = 'block';
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('successModal');
+      modal.style.display = 'none';
+    }
+
+    // Close the modal when clicking outside of it
+    window.onclick = function(event) {
+      const modal = document.getElementById('successModal');
+      if (event.target == modal) {
+        modal.style.display = 'none';
+      }
+    }
+    </script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="lib/easing/easing.min.js"></script> -->
+    <script src="lib/easing/easing.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="public/js/main.js"></script>
+  </body>
+</html>
